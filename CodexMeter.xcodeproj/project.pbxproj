@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010000000000000000000001 /* CodexMeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000001 /* CodexMeterApp.swift */; };
+		010000000000000000000002 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000002 /* MenuBarView.swift */; };
+		010000000000000000000003 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000003 /* DashboardView.swift */; };
+		010000000000000000000004 /* CodexUsageSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000004 /* CodexUsageSnapshot.swift */; };
+		010000000000000000000005 /* CodexExecutableLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000005 /* CodexExecutableLocator.swift */; };
+		010000000000000000000006 /* JSONRPCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000006 /* JSONRPCClient.swift */; };
+		010000000000000000000007 /* CodexService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000007 /* CodexService.swift */; };
+		010000000000000000000008 /* LaunchAtLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000008 /* LaunchAtLoginController.swift */; };
+		010000000000000000000009 /* AppGroupStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000009 /* AppGroupStore.swift */; };
+		01000000000000000000000A /* UsageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000000000000000000000A /* UsageStore.swift */; };
+		01000000000000000000000B /* UsageProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000000000000000000000B /* UsageProgressView.swift */; };
+		01000000000000000000000C /* PlanBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000000000000000000000C /* PlanBadge.swift */; };
+		01000000000000000000000D /* UsageFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000000000000000000000D /* UsageFormatting.swift */; };
+		010000000000000000000020 /* CodexMeterWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000020 /* CodexMeterWidget.swift */; };
+		010000000000000000000021 /* CodexMeterWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000021 /* CodexMeterWidgetBundle.swift */; };
+		010000000000000000000022 /* WidgetUsageProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000022 /* WidgetUsageProgressView.swift */; };
+		010000000000000000000023 /* SmallWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000023 /* SmallWidgetView.swift */; };
+		010000000000000000000024 /* MediumWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000024 /* MediumWidgetView.swift */; };
+		010000000000000000000025 /* CodexUsageSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000004 /* CodexUsageSnapshot.swift */; };
+		010000000000000000000026 /* AppGroupStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000009 /* AppGroupStore.swift */; };
+		010000000000000000000027 /* UsageFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000000000000000000000D /* UsageFormatting.swift */; };
+		010000000000000000000030 /* CodexMeterWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 020000000000000000000031 /* CodexMeterWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		010000000000000000000040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000040 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		030000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 050000000000000000000002;
+			remoteInfo = CodexMeterWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		060000000000000000000004 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				010000000000000000000030 /* CodexMeterWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		020000000000000000000001 /* CodexMeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexMeterApp.swift; sourceTree = "<group>"; };
+		020000000000000000000002 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		020000000000000000000003 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		020000000000000000000004 /* CodexUsageSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexUsageSnapshot.swift; sourceTree = "<group>"; };
+		020000000000000000000005 /* CodexExecutableLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexExecutableLocator.swift; sourceTree = "<group>"; };
+		020000000000000000000006 /* JSONRPCClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONRPCClient.swift; sourceTree = "<group>"; };
+		020000000000000000000007 /* CodexService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexService.swift; sourceTree = "<group>"; };
+		020000000000000000000008 /* LaunchAtLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLoginController.swift; sourceTree = "<group>"; };
+		020000000000000000000009 /* AppGroupStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupStore.swift; sourceTree = "<group>"; };
+		02000000000000000000000A /* UsageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageStore.swift; sourceTree = "<group>"; };
+		02000000000000000000000B /* UsageProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageProgressView.swift; sourceTree = "<group>"; };
+		02000000000000000000000C /* PlanBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanBadge.swift; sourceTree = "<group>"; };
+		02000000000000000000000D /* UsageFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageFormatting.swift; sourceTree = "<group>"; };
+		02000000000000000000000E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02000000000000000000000F /* CodexMeter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodexMeter.entitlements; sourceTree = "<group>"; };
+		020000000000000000000020 /* CodexMeterWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexMeterWidget.swift; sourceTree = "<group>"; };
+		020000000000000000000021 /* CodexMeterWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexMeterWidgetBundle.swift; sourceTree = "<group>"; };
+		020000000000000000000022 /* WidgetUsageProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetUsageProgressView.swift; sourceTree = "<group>"; };
+		020000000000000000000023 /* SmallWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallWidgetView.swift; sourceTree = "<group>"; };
+		020000000000000000000024 /* MediumWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumWidgetView.swift; sourceTree = "<group>"; };
+		020000000000000000000025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020000000000000000000026 /* CodexMeterWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodexMeterWidget.entitlements; sourceTree = "<group>"; };
+		020000000000000000000030 /* CodexMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodexMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		020000000000000000000031 /* CodexMeterWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CodexMeterWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		020000000000000000000040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		060000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060000000000000000000006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				070000000000000000000002 /* CodexMeter */,
+				070000000000000000000008 /* CodexMeterWidget */,
+				070000000000000000000009 /* Shared */,
+				07000000000000000000000A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		070000000000000000000002 /* CodexMeter */ = {
+			isa = PBXGroup;
+			children = (
+				070000000000000000000003 /* App */,
+				070000000000000000000004 /* Models */,
+				070000000000000000000005 /* Services */,
+				070000000000000000000006 /* Stores */,
+				070000000000000000000007 /* Components */,
+				020000000000000000000040 /* Assets.xcassets */,
+				02000000000000000000000E /* Info.plist */,
+				02000000000000000000000F /* CodexMeter.entitlements */,
+			);
+			path = CodexMeter;
+			sourceTree = "<group>";
+		};
+		070000000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				020000000000000000000001 /* CodexMeterApp.swift */,
+				020000000000000000000002 /* MenuBarView.swift */,
+				020000000000000000000003 /* DashboardView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		070000000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				020000000000000000000004 /* CodexUsageSnapshot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		070000000000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				020000000000000000000005 /* CodexExecutableLocator.swift */,
+				020000000000000000000006 /* JSONRPCClient.swift */,
+				020000000000000000000007 /* CodexService.swift */,
+				020000000000000000000008 /* LaunchAtLoginController.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		070000000000000000000006 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				020000000000000000000009 /* AppGroupStore.swift */,
+				02000000000000000000000A /* UsageStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		070000000000000000000007 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				02000000000000000000000B /* UsageProgressView.swift */,
+				02000000000000000000000C /* PlanBadge.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		070000000000000000000008 /* CodexMeterWidget */ = {
+			isa = PBXGroup;
+			children = (
+				020000000000000000000020 /* CodexMeterWidget.swift */,
+				020000000000000000000021 /* CodexMeterWidgetBundle.swift */,
+				020000000000000000000022 /* WidgetUsageProgressView.swift */,
+				020000000000000000000023 /* SmallWidgetView.swift */,
+				020000000000000000000024 /* MediumWidgetView.swift */,
+				020000000000000000000025 /* Info.plist */,
+				020000000000000000000026 /* CodexMeterWidget.entitlements */,
+			);
+			path = CodexMeterWidget;
+			sourceTree = "<group>";
+		};
+		070000000000000000000009 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				02000000000000000000000D /* UsageFormatting.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		07000000000000000000000A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				020000000000000000000030 /* CodexMeter.app */,
+				020000000000000000000031 /* CodexMeterWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		050000000000000000000001 /* CodexMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080000000000000000000002 /* Build configuration list for PBXNativeTarget "CodexMeter" */;
+			buildPhases = (
+				060000000000000000000001 /* Sources */,
+				060000000000000000000002 /* Frameworks */,
+				060000000000000000000003 /* Resources */,
+				060000000000000000000004 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				090000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = CodexMeter;
+			productName = CodexMeter;
+			productReference = 020000000000000000000030 /* CodexMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		050000000000000000000002 /* CodexMeterWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080000000000000000000003 /* Build configuration list for PBXNativeTarget "CodexMeterWidget" */;
+			buildPhases = (
+				060000000000000000000005 /* Sources */,
+				060000000000000000000006 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodexMeterWidget;
+			productName = CodexMeterWidget;
+			productReference = 020000000000000000000031 /* CodexMeterWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					050000000000000000000001 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					050000000000000000000002 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 080000000000000000000001 /* Build configuration list for PBXProject "CodexMeter" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 070000000000000000000001;
+			productRefGroup = 07000000000000000000000A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				050000000000000000000001 /* CodexMeter */,
+				050000000000000000000002 /* CodexMeterWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		060000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010000000000000000000040 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		060000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010000000000000000000001 /* CodexMeterApp.swift in Sources */,
+				010000000000000000000002 /* MenuBarView.swift in Sources */,
+				010000000000000000000003 /* DashboardView.swift in Sources */,
+				010000000000000000000004 /* CodexUsageSnapshot.swift in Sources */,
+				010000000000000000000005 /* CodexExecutableLocator.swift in Sources */,
+				010000000000000000000006 /* JSONRPCClient.swift in Sources */,
+				010000000000000000000007 /* CodexService.swift in Sources */,
+				010000000000000000000008 /* LaunchAtLoginController.swift in Sources */,
+				010000000000000000000009 /* AppGroupStore.swift in Sources */,
+				01000000000000000000000A /* UsageStore.swift in Sources */,
+				01000000000000000000000B /* UsageProgressView.swift in Sources */,
+				01000000000000000000000C /* PlanBadge.swift in Sources */,
+				01000000000000000000000D /* UsageFormatting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010000000000000000000020 /* CodexMeterWidget.swift in Sources */,
+				010000000000000000000021 /* CodexMeterWidgetBundle.swift in Sources */,
+				010000000000000000000022 /* WidgetUsageProgressView.swift in Sources */,
+				010000000000000000000023 /* SmallWidgetView.swift in Sources */,
+				010000000000000000000024 /* MediumWidgetView.swift in Sources */,
+				010000000000000000000025 /* CodexUsageSnapshot.swift in Sources */,
+				010000000000000000000026 /* AppGroupStore.swift in Sources */,
+				010000000000000000000027 /* UsageFormatting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		090000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 050000000000000000000002 /* CodexMeterWidget */;
+			targetProxy = 030000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0A0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0A0000000000000000000011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODEX_METER_APP_GROUP = "$(DEVELOPMENT_TEAM).codexmeter.shared";
+				CODE_SIGN_ENTITLEMENTS = CodexMeter/CodexMeter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CodexMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CodexMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		0A0000000000000000000012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODEX_METER_APP_GROUP = "$(DEVELOPMENT_TEAM).codexmeter.shared";
+				CODE_SIGN_ENTITLEMENTS = CodexMeter/CodexMeter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CodexMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CodexMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		0A0000000000000000000021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODEX_METER_APP_GROUP = "$(DEVELOPMENT_TEAM).codexmeter.shared";
+				CODE_SIGN_ENTITLEMENTS = CodexMeterWidget/CodexMeterWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CodexMeterWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CodexMeter.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		0A0000000000000000000022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODEX_METER_APP_GROUP = "$(DEVELOPMENT_TEAM).codexmeter.shared";
+				CODE_SIGN_ENTITLEMENTS = CodexMeterWidget/CodexMeterWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CodexMeterWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CodexMeter.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		080000000000000000000001 /* Build configuration list for PBXProject "CodexMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0000000000000000000001 /* Debug */,
+				0A0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080000000000000000000002 /* Build configuration list for PBXNativeTarget "CodexMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0000000000000000000011 /* Debug */,
+				0A0000000000000000000012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080000000000000000000003 /* Build configuration list for PBXNativeTarget "CodexMeterWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0000000000000000000021 /* Debug */,
+				0A0000000000000000000022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040000000000000000000001 /* Project object */;
+}
